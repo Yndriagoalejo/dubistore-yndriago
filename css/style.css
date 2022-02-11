@@ -50,8 +50,8 @@ li:hover{
     height: 20px;
     border-top-color: white;
     border-left-color:white;
-    border-bottom-color: rgb(194, 178, 210);
-    border-right-color: rgb(194, 178, 210);
+    border-bottom-color: black;
+    border-right-color: black;
     border-radius: 6px;
     color: white;
 }
