@@ -653,7 +653,7 @@ top: 200px;
 }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1040px) {
     /*pagA=index*/
     .derechos {
         grid-area: derechos;
@@ -673,7 +673,7 @@ top: 200px;
         height: 50%;
     }
     .navA {
-        width: 1330px;
+        width: auto;
         height: 110%;
     }
     .navegacion {
