@@ -45,10 +45,20 @@ li {
     color: white;
 }
 .nav-link, .nav-link:hover {
-    color: white;
+    color: rgb(194, 178, 210) !important;
 }
 
-li:hover{
+.navbar-brand {
+    background-color: rgb(194, 178, 210);
+    border-radius: 6px;
+    width: auto;
+    color: white !important;
+    padding: 0px 5px 0px 5px;
+}
+.bg.ligth {
+    background-color: rgb(194, 178, 210);
+}
+.selPren li:hover{
     background-color: rgb(194, 178, 210);
     border-style: solid;
     height: 20px;
@@ -63,12 +73,12 @@ li:hover{
     height: 50%;
 }
 .btn {
-    color: white;
-    border: none;
+    color: rgb(194, 178, 210);
+    border: rgb(194, 178, 210);
 }
 .btn:hover {
-    background-color: white;
-    color: rgb(194, 178, 210);
+    background-color: rgb(194, 178, 210);
+    color: white;
 }
 #searchterm {
     font-size: 13px;
@@ -326,6 +336,7 @@ top: 200px;
     grid-column-gap: 0px;
     grid-template-areas: "encabezadoA" "navA" "seccionAA" "seccionBA" "pieA" ;
     min-height: calc(100% - 4rem);
+    margin: 0px 10px 0px 10px;
 }
 .encabezadoA {
     width: auto;
@@ -345,7 +356,10 @@ top: 200px;
 .logoHeader {
     width: 30%;
 }
-.navA ul {
+.selPren {
+    display: none;
+}
+/*.navA ul {
     display: grid;
     position: relative;
     left: 10px;
@@ -359,7 +373,7 @@ top: 200px;
     font-family: 'Dongle', sans-serif;
     line-height: 2px;
     font-size: 20px;
-}
+}*/
 .seccionAA {
     position: absolute;
     order: 1;
@@ -376,23 +390,25 @@ top: 200px;
     padding: 10px;
     height: 10px;
 }
-.seccionBA {
+/*.seccionBA {
     position: relative;
     top: 50px;
     left: 30px;
     width: 300px;
     height: max-content;
+}*/
+.card {
+    width: 15rem !important;
 }
-.seccionBA div iframe {
-    width: 100px;
-}
-.navA ul li div .bnav2 {
-    display: none;
+.row {
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    top: 20rem;
 }
 .pieA {
     position: relative;
     width: 100%;
-    top: 250px;
     font-size: 15px;
 }
 .pieA div {
@@ -719,7 +735,7 @@ top: 200px;
         height: 50px;
     }
     .col-3 {
-        margin: 0px 5px 0px px;
+        margin: 0px 5px 0px 5px;
         padding-top: 5px;
     }
     .card-body {
