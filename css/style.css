@@ -44,9 +44,10 @@ li {
     font-size: 24px;
     color: white;
 }
-.nav-link {
+.nav-link, .nav-link:hover {
     color: white;
 }
+
 li:hover{
     background-color: rgb(194, 178, 210);
     border-style: solid;
@@ -57,6 +58,17 @@ li:hover{
     border-right-color: rgb(194, 178, 210);
     border-radius: 6px;
     color: white;
+}
+.form-control {
+    height: 50%;
+}
+.btn {
+    color: white;
+    border: none;
+}
+.btn:hover {
+    background-color: white;
+    color: rgb(194, 178, 210);
 }
 #searchterm {
     font-size: 13px;
