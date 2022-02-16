@@ -26,24 +26,46 @@
         <nav class="navA" id="barra">
             <!-- barra con tabla para descripcion de la empresa
             -->
-            <ul class="navegacion" border="0px">
-                <li class="navAA">
-                    <!--Barra de busqueda
-                        -->
-                    <div class="bnav">
-                        <input class="bnav2" type="text" id="searchterm" placeholder="Que estas buscando?" />
-                        <button class="bnav2" type="button" id="search">Buscar</button>
-                    </div>
-                </li>
-                <!--Enlace de quienes somos y de contactanos
-                    -->
-                <li class="navAB" class="bnav"><a class="blink" href="../Dubistore Yndriago/index.html">Productos</a>
-                </li>
-                <li class="navAC" class="bnav"><a class="blink" href="page/empresa.html">Empresa</a></li>
-                <li class="navAD" class="bnav"><a class="blink" href="page/nuestro equipo.html">Nuestro equipo</a></li>
-                <li class="navAE" class="bnav"><a class="blink" href="page/envios.html">Envios</a></li>
-                <li class="navAF" class="bnav"><a class="blink" href="page/contactenos.html">Contactanos</a></li>
-            </ul>
+            
+            <div class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="page/empresa.html">Empresa</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="page/nuestro equipo.html">Equipo</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="page/envios.html">Envios</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="page/contactenos.html">Contactanos</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Productos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                          <li><a class="dropdown-item" href="page/jersey.html">Jersey</a></li>
+                          <li><a class="dropdown-item" href="#">Abrigos</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Blusas</a></li>
+                          
+                        </ul>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+            </div>
         </nav>
         <section class="seccionAA" class="ladoIzq">
             <!--seleccion de prendas

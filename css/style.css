@@ -44,6 +44,9 @@ li {
     font-size: 24px;
     color: white;
 }
+.nav-link {
+    color: white;
+}
 li:hover{
     background-color: rgb(194, 178, 210);
     border-style: solid;
