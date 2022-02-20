@@ -664,7 +664,9 @@ h3 {
         width: 10rem;
         height: 12rem;
     }
-
+    .pagB .pieA {
+        margin-top: 2rem;
+    }
     /*contactenos*/
 
     .pagC {
