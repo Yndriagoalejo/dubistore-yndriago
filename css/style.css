@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -18,10 +18,10 @@ li {
     padding: 5px 0px 5px 0px;
 }
 
-.navbar{
+.navbar {
     font-family: 'Dongle', sans-serif;
     font-size: 1.5rem;
-    background-color:rgb(194, 178, 210);
+    background-color: rgb(194, 178, 210) !important;
     padding: 2px 0px 2px 0px;
     border-bottom: 2px solid rgb(194, 178, 210);
     border-bottom-left-radius: 6px;
@@ -32,18 +32,22 @@ li {
 .nav-link {
     color: white !important;
 }
+
 .navbar-brand img {
     width: 3rem;
 }
+
 .btn {
     color: white;
     border: 1px solid white;
 }
+
 .btn:hover {
-    background-image: radial-gradient(white, rgb(194,178,210),white, rgb(194,178,210), rgb(194,178,210));
+    background-image: radial-gradient(white, rgb(194, 178, 210), white, rgb(194, 178, 210), rgb(194, 178, 210));
     color: rgb(75, 65, 65);
     border: none;
 }
+
 .selPren {
     font-family: 'Dongle', sans-serif;
     font-size: 25px;
@@ -53,865 +57,681 @@ li {
     padding-top: 0.5rem;
     line-height: 2rem;
 }
-.selPren ul .lili:hover{
+
+.selPren ul .lili:hover {
     padding: 0rem 0.3rem 0rem 0.3rem;
     background-color: white;
     border-style: solid;
-    width:fit-content;
+    width: fit-content;
     height: fit-content;
     border-color: white purple purple white;
     border-radius: 6px;
     color: white;
     line-height: 1.7rem;
 }
+
 .selPren li img {
     width: 1.5rem;
 }
+
 .selPren li a {
     font-size: 2rem;
     color: rgb(194, 178, 210);
 }
+
 a {
     text-decoration: none;
 }
+
 .estiloPie {
     padding: 1rem;
     background-color: rgb(194, 178, 210);
     border-radius: 6px;
 }
+
 h3 {
     font-family: 'Dongle', sans-serif;
     font-size: 30px;
     line-height: 0px;
     color: white;
 }
-.RedesPie li{
+
+.RedesPie li {
     margin: 0.5rem;
 }
+
 .derechos {
     font-family: 'Dongle', sans-serif;
     font-size: 25px;
     color: white;
 }
-/*
-#barra {
-    background-color: rgb(194, 178, 210);
-    border-style: solid;
-    padding-bottom: 1px;
-    border: 1px;
-    border-bottom-right-radius: 6px;
-    border-bottom-left-radius: 6px;
-}
-.navegacion {
-    list-style:none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-self: center;
 
-}
-.bnav {
-    font-family: 'Dongle', sans-serif;
-    font-size: 24px;
-    color: white;
-}
-.nav-link, .nav-link:hover {
-    color: rgb(194, 178, 210) !important;
-}
-
-.navbar-brand {
-    background-color: rgb(194, 178, 210);
-    border-radius: 6px;
-    width: auto;
-    color: white !important;
-    padding: 0px 5px 0px 5px;
-}
-.form-control {
-    height: 50%;
-}
-.blink {
-    color: white;
-}
-
-}*/
-/*posicion del video*/
-/*
-
-
+/*nuestro equipo*/
 
 .titulo {
     font-family: 'Dongle', sans-serif;
-    display: inline-block;
-    position: relative;
-    padding: 2px 10px 2px 10px;
-    top: 10px;
-    left: 520px;
-    background-color: rgb(194, 178, 210);
-    border-radius: 10px;
-    line-height: 50px;
-    font-size: 50px;
-    color: white;
-}*/
-/*empresa*/
-/*.contenidoD {
-    font-family: 'Dongle', sans-serif;
-    font-size: 30px;
-    color: white;
-    line-height: 20px;
-}
-.contenidoDA {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.empresaD, .misionD {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.empresaD {
-position: absolute;
-top: 200px;
-}
-.misionD {
-    position: absolute;
-    top: 400px;
-}
-.empresaDA, .misionDA {
-    display: inline-block;
-    align-self: center;
-    padding: 8px;
-    margin-bottom: 10px;
     background-color: rgb(194, 178, 210);
     border-radius: 6px;
+    line-height: 1rem;
+    font-size: 2rem;
+    color: white;
+    margin-top: 0.5rem;
 }
-.empresaDB, .misionDB {
-    display: inline-block;
-    padding: 10px;
-    width: 300px;
-}
-/*nuestro equipo*/
+
 /*texto equipo*/
-/*.dubi, .alex {
-    display: inline-block;
+.dubi,
+.alejo {
     background-color: rgb(194, 178, 210);
     padding: 5px 10px 5px 10px;
     border-radius: 6px;
     color: white;
 }
-.dubi {
-    top: 80px;
-}
-.alex {
-    top: 20px;
-}*/
-/*fotos equipo*/
-/*.dubii, .alexi {
-    display: block;
-    position: relative;
-    left: 10px;
-}
-.dubii{
-    top: 80px;
+
+
+/*contactenos*/
+.numeroCont,
+.comentario {
+    font-family: 'Dongle', sans-serif;
+    font-size: 2rem;
+    line-height: 2rem;
+    background-color: rgb(194, 178, 210);
+    border-radius: 6px;
+    color: white;
+    text-align: center;
 }
 
-.alexi {
-    top: 200px;
-}*/
-/*contactenos*/
-/*.contacta, .escribe {
-    display: inline-block;
-    position: absolute;
+.numeroC ul {
+    padding: 1rem;
 }
-.contacta {
-    top: 300px;
-    left: 50px;
-}
-.escribe {
-    top: 300px;
-    left: 800px;
-}
-.numeroCont, .comentario {
+
+.numeroC ul li {
     font-family: 'Dongle', sans-serif;
-    font-size: 30px;
-    line-height:30px;
-    background-color: rgb(194, 178, 210);
-    border-radius: 6px;
+    font-size: 2rem;
+    line-height: 2rem;
     color: white;
     text-align: center;
-}*/
-/*envios*/
-/*.intro {
-    display: block;
-    position:relative;
-    top: 30px;
-    left: 250px;
-    height: 15px;
-    width: 800px;
+    background-color: rgb(194, 178, 210);
+    border-radius: 6px;
+    margin: 1rem;
+}
+
+.numeroC ul li a {
+    color: white;
+}
+
+.comentarioi {
+    margin-top: 1rem;
     text-align: center;
+
+}
+
+.formuName,
+.formuMail,
+.formuCont {
+    justify-content: center;
+    width: 70%;
+    margin-top: 0.5rem;
+    border-radius: 6px;
+    text-align: center;
+    background-color: rgb(241, 232, 240);
+}
+
+/*empresa*/
+.contenidoD {
+    font-family: 'Dongle', sans-serif;
+    font-size: 30px;
+    color: white;
+    line-height: 20px;
+}
+
+.empresaDB,
+.misionDB {
+    margin-top: 1rem;
+    background-color: rgb(194, 178, 210);
+    border-radius: 6px;
+    padding: 1rem;
+    justify-content: center;
+}
+
+/*envios*/
+
+.intro, .medios {
+    font-family: 'Dongle', sans-serif;
+    background-color: rgb(194, 178, 210, 0.6);
+    color: white;
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 6px;
 }
 .medios {
-    font-family: 'Dongle', sans-serif;
-    font-size: 30px;
-    line-height: 20px;
+    padding: 1rem;
+}
+.intro {
+    width: 80%;
+}
+.medios a {
     color: white;
-    display: inline-block;
-    position: relative;
-    top: 150px;
-    left: 520px;
-    text-align: center;
-    background-color: rgb(194, 178, 210);
+}
+.medios a:hover {
+    background-color: violet;
     border-radius: 6px;
-}*/
+}
+
 /*media*/
-.pagA, .pagB, .pagC, .pagD, .pagE {
+.pagA,
+.pagB,
+.pagC,
+.pagD,
+.pagE {
     display: grid;
 }
+
 .encabezadoA {
     grid-area: encabezadoA;
 }
+
 .navA {
     grid-area: navA;
 }
+
 .seccionAA {
     grid-area: seccionAA;
 }
+
 .seccionBA {
     grid-area: seccionBA;
 }
+
 .pieA {
     grid-area: pieA;
 }
+
 /*navegacion items*/
 .navAA {
     grid-area: navAA;
 }
+
 .navAB {
     grid-area: navAB;
 }
+
 .navAC {
     grid-area: navAC;
 }
+
 .navAD {
     grid-area: navAD;
 }
+
 .navAE {
     grid-area: navAE;
 }
+
 .navAF {
     grid-area: navAF;
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
-/*pagA=index*/
-
-.pagA {
-    grid-template-columns: 100%;
-    grid-template-rows: auto auto auto auto auto;
-    grid-template-areas: "encabezadoA" "navA" "seccionAA" "seccionBA" "pieA" ;
-    min-height: calc(100% - 4rem);
-    margin: 0px 10px 0px 10px;
-}
-.encabezadoA {
-    width: auto;
-    height: 100%;
-}
-.logoHeader {
-    width: 30%;
-}
-.container-fluid {
-    justify-content: center !important;
-}
-.seccionAA {
-    margin-top: 1rem;
-}
-.seccionAA ul {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    line-height: 1rem;
-}
-.selPren {
-    width: auto;
-    background-color: white;
-    padding: 0.4rem 0.2rem 1rem 0.2rem;
-    height: 2rem;
-}
-.selPren ul{
-    margin: 0px;
-    padding: 0px;
-}
-.lilo {
-    display: none;
-}
-.card {
-    width: 15rem !important;
-}
-.row {
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-}
-.col-2 {
-    width: auto;
-}
-.pieA {
-    width: auto;
-    height: 4rem;
-}
-.pieA div {
-    display:flex;
-    flex-direction:column;
-    align-items: center;
-    padding-top: 1rem;
-}
-.pieA div h3 {
-    font-size: 3rem;
-}
-.pieA div .derechos {
-    font-size: 2rem;
-    text-align: center;
-    line-height: 1rem;
-}
-.RedesPie {
-    display: flex;
-    flex-direction: row;
-    padding: 0px;
-}
-
-/*.navA ul {
-    display: grid;
-    position: relative;
-    left: 10px;
-    grid-template-columns: 100px 100px 100px;
-    grid-template-rows: 15px 15px;
-    grid-template-areas: "navAC none navAE" "navAB navAD navAF";
-    justify-items: center;
-    align-content: center;
-    column-gap: 15px;
-    row-gap: 10px;
-    font-family: 'Dongle', sans-serif;
-    line-height: 2px;
-    font-size: 20px;
-}*/
-/*.seccionBA {
-    position: relative;
-    top: 50px;
-    left: 30px;
-    width: 300px;
-    height: max-content;
-}*/
-
-/*nuestro equipo*/
+/*equipo*/
 .equipoB {
     grid-area: equipoB;
 }
-.dubi {
-    grid-area: dubi;
-}
-.dubii {
-    grid-area: dubii;
-}
-.alexi {
-    grid-area: alexi;
-}
-.alex {
-    grid-area: alex;
-}
-.titulo {
-    grid-area: titulo;
-}
+
 .contenidoEquipo {
     grid-area: contenidoEquipo;
 }
-.pagB {
-    grid-template-columns: 100%;
-    grid-template-rows: 30% 20% 20% 30%;
-    grid-template-areas: "encabezadoA" "navA" "equipoB" "pieA";
-    min-height: calc(100% - 4rem);
-}
-.equipoB {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto;
-    grid-template-areas: "titulo" "contenidoEquipo";
-    top: 180px;
-    left: 20px;
-}
-.titulo {
-    display: flex;
-    position: absolute;
-    top: 200px;
-    left: 115px;
-    font-size: 25px;
-    line-height: 30px;
-}
-.contenidoEquipo {
-    display: grid;
-    position: absolute;
-    top: 200px;
-    grid-template-columns: 30% 70%;
-    grid-template-rows: 50% 50%;
-    grid-template-areas: "dubii dubi" "alexi alex";
-}
-.dubi, .alex, .alexi, .dubi {
-    position: absolute;
-}
-.dubi, .alex {
-    display: flex;
-    width: 180px;
-    flex-direction: column;
-    font-size: 13px;
-}
+
 .dubi {
-    left: 100px;
+    grid-area: dubi;
 }
-.alex {
-    top: 0px;
-    left: 120px;
+
+.dubii {
+    grid-area: dubii;
 }
-.dubii img, .alexi img {
-    top: 10px;
-    border: 5px solid rgb(194, 178, 210);
-    border-radius: 6px;
-    width: 55px;
-    height: 70px;
+
+.alejo {
+    grid-area: alejo;
 }
-.pagB .pieA {
-    position: absolute;
-    width: 100%;
-    top: 630px;
-    font-size: 15px;
-    height: 4rem;
+
+.alexi {
+    grid-area: alexi;
 }
-.pagB .pieA div {
-    display:flex;
-    flex-direction:column;
-    align-items: center;
+
+.titulo {
+    grid-area: titulo;
 }
-.pagB .pieA div .derechos {
-    text-align: center;
-    font-size: 15px;
-}
-/*contacto*/
+
+/*contactenos*/
+
 .contenidoC {
     grid-area: contenidoC;
 }
+
 .contenidoCA {
     grid-area: contenidoCA;
 }
+
 .numeroC {
     grid-area: numeroC;
 }
+
 .formularioC {
     grid-area: formularioC;
 }
-.pagC {
-    grid-template-columns: 100%;
-    grid-template-rows: 30% 20% auto 30%;
-    grid-template-areas: "encabezadoA" "navA" "contenidoC" "pieA";
 
-}
-.contenidoC {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto;
-    grid-template-areas: "titulo" "contenidoCA";
-}
-.pagC .titulo {
-    top: 200px;
-    left: 100px;
-}
-.contenidoCA {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto;
-    grid-template-areas: "numeroC" "formularioC";
-}
-.numeroC .contacta {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    top: 250px;
-    left: 90px;
-}
-.formularioC .escribe {
-    position: absolute;
-    top: 350px;
-    left: 60px;
-}
-.formularioC .escribe .comentario {
-    position: relative;
-    margin-bottom: 10px;
-}
-.pagC .pieA {
-    position: absolute;
-    width: 100%;
-    top: 630px;
-    font-size: 15px;
-    height: 4rem;
-}
-.pagC .pieA div {
-    display:flex;
-    flex-direction:column;
-    align-items: center;
-}
-.pagC .pieA div .derechos {
-    text-align: center;
-    font-size: 15px;
-}
-/*empresa*/
-.pagD {
-    grid-template-columns: 100%;
-    grid-template-rows: 30% 20% auto 30%;
-    grid-template-areas: "encabezadoA" "navA" "contenidoD" "pieA";
-
-}
-.contenidoD {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto;
-    grid-template-areas: "titulo" "contenidoDA";
-}
-.empresaD {
-    text-align: center;
-}
-.pagD .pieA {
-    position: absolute;
-    width: 100%;
-    top: 630px;
-    font-size: 15px;
-    height: 4rem;
-}
-.pagD .pieA div {
-    display:flex;
-    flex-direction:column;
-    align-items: center;
-}
-.pagD .pieA div .derechos {
-    text-align: center;
-    font-size: 15px;
-}
 /*envios*/
 .contenidoE {
     grid-area: contenidoE;
 }
+
 .contenidoEA {
     grid-area: contenidoEA;
 }
+
 .intro {
     grid-area: intro;
 }
 .medios {
     grid-area: medios;
 }
-.pagE {
-    grid-template-columns: 100%;
-    grid-template-rows: 30% 20% auto 30%;
-    grid-template-areas: "encabezadoA" "navA" "contenidoE" "pieA";
 
-}
-.contenidoE {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto;
-    grid-template-areas: "titulo" "contenidoEA";
-}
-.contenidoEA {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: "intro" "medios";
-}
-.intro, .medios {
-    font-family: 'Dongle', sans-serif;
-    display: inline-flex;
-}
-.intro {
-    display: inline-flex;
-    width: 300px;
-    position: absolute;
-    top: 250px;
-    left: 30px;
-    color: white;
-    font-size: 25px;
-    line-height: 15px;
-}
-.medios {
-    position: absolute;
-    top: 350px;
-    line-height: 20px;
-    left: 80px;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    font-size: 30px;
-    line-height: 15px;
-}
-.pagE .pieA {
-    position: absolute;
-    width: 100%;
-    top: 630px;
-    font-size: 15px;
-    height: 4rem;
-}
-.pagE .pieA div {
-    display:flex;
-    flex-direction:column;
-    align-items: center;
-}
-.pagE .pieA div .derechos {
-    text-align: center;
-    font-size: 15px;
-}
-}
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
     /*pagA=index*/
-    .derechos {
-        grid-area: derechos;
-    }
-    .estiloPie {
-        grid-area: estiloPie;
-    }
+
     .pagA {
-        grid-template-columns: auto;
+        grid-template-columns: 100%;
         grid-template-rows: auto auto auto auto auto;
-        grid-template-areas: "encabezadoA" "navA" "seccionAA" "seccionBA" "pieA";
+        grid-template-areas: "encabezadoA""navA""seccionAA""seccionBA""pieA";
+        min-height: calc(100% - 4rem);
+        margin: 0px 10px 0px 10px;
+    }
+
+    .encabezadoA {
+        width: auto;
+        height: 100%;
+    }
+
+    .logoHeader {
+        width: 30%;
+    }
+
+    .container-fluid {
+        justify-content: center !important;
+    }
+
+    .seccionAA {
+        margin-top: 1rem;
+    }
+
+    .seccionAA ul {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        line-height: 1rem;
+    }
+
+    .selPren {
+        width: auto;
+        background-color: white;
+        padding: 0.4rem 0.2rem 1rem 0.2rem;
+        height: 2rem;
+    }
+
+    .selPren ul {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .lilo {
+        display: none;
+    }
+
+    .card {
+        width: 15rem !important;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .col-2 {
+        width: auto;
+    }
+
+    .pieA {
+        width: auto;
+        height: 4rem;
+    }
+
+    .pieA div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 1rem;
+    }
+
+    .pieA div h3 {
+        font-size: 3rem;
+    }
+
+    .pieA div .derechos {
+        font-size: 2rem;
+        text-align: center;
+        line-height: 1rem;
+    }
+
+    .RedesPie {
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+    }
+
+    /*nuestro equipo*/
+
+    .pagB {
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas: "encabezadoA""navA""equipoB""pieA";
         margin: 0px 10px 0px 10px;
         min-height: calc(100% - 4rem);
     }
+
+    .equipoB {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto;
+        grid-template-areas: "titulo""contenidoEquipo";
+        row-gap: 1rem;
+    }
+
+    .titulo {
+        display: flex;
+        font-size: 2rem;
+        line-height: 2rem;
+        justify-content: center;
+    }
+
+    .contenidoEquipo {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        grid-template-areas: "dubii dubi""alexi alejo";
+        row-gap: 1rem;
+    }
+
+    .dubi,
+    .alejo {
+        display: flex;
+        width: auto;
+        flex-direction: column;
+        font-size: 13px;
+    }
+
+    .dubii img,
+    .alexi img {
+        border: 5px solid rgb(194, 178, 210);
+        border-radius: 6px;
+        width: 5rem;
+        height: 7rem;
+    }
+
+    .pagB .pieA {
+        height: 4rem;
+        margin-top: 5rem;
+    }
+
+    /*contactenos*/
+    .pagC {
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas: "encabezadoA""navA""contenidoC""pieA";
+        margin: 0px 10px 0px 10px;
+    }
+
+    .contenidoC {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        grid-template-areas: "titulo""contenidoCA";
+        row-gap: 1rem;
+    }
+
+    .contenidoCA {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        grid-template-areas: "numeroC""formularioC";
+    }
+
+    /*empresa*/
+    .pagD {
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas: "encabezadoA""navA""contenidoD""pieA";
+        margin: 0px 10px 0px 10px;
+    }
+
+    .contenidoD {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        grid-template-areas: "empresaD""misionD";
+        row-gap: 3rem;
+    }
+
+    .pagD .pieA {
+        height: 4rem;
+        margin-top: 3rem;
+    }
+    /*envios*/
+    .pagE {
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas: "encabezadoA" "navA" "contenidoE" "pieA";
+        margin: 0px 10px 0px 10px;
+    
+    }
+    .contenidoE {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        grid-template-areas: "titulo" "contenidoEA";
+    }
+    .contenidoEA {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        grid-template-areas: "intro" "medios";
+        row-gap: 1rem;
+        margin: 1rem;
+    }
+    .intro, .medios {
+        line-height: 2rem;
+        width: auto;
+
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+    /*pagA=index*/
+
+    .estiloPie {
+        grid-area: estiloPie;
+    }
+
+    .pagA {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-areas: "encabezadoA""navA""seccionAA""seccionBA""pieA";
+        margin: 0px 10px 0px 10px;
+        min-height: calc(100% - 4rem);
+    }
+
     .seccionAA {
         display: flex;
         justify-content: space-around;
         padding: 1rem;
     }
+
     .seccionAA ul {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         justify-items: center;
     }
+
     .row {
         justify-content: center;
     }
+
     .card-body {
         background-color: rgb(194, 178, 210);
         color: white;
     }
+
     .pieA {
         width: 100%;
         height: 4rem;
     }
+
     .alineacionCentral {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-top: 1rem;
     }
+
     .RedesPie {
         display: flex;
         flex-direction: row;
         margin: 0;
         padding: 0;
-
-    }
-    /*
-    .pieA div {
-        display:flex;
-        flex-direction:column;
-        align-items: center;
-    }
-    .pieA div .derechos {
-        text-align: center;
-        font-size: 25px;
-    }
-    .encabezadoA {
-        width: 100%;
-        height: 50%;
     }
 
-    .navA {
+    /*nuestro equipo*/
+    .pagB {
+        margin: 0 10px 0 10px;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas: "encabezadoA""navA""equipoB""pieA";
+        min-height: calc(100% - 4rem);
+    }
+
+    .equipoB {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        grid-template-areas: "titulo""contenidoEquipo";
+        row-gap: 1rem;
+    }
+
+    .titulo {
         width: auto;
-        height: 110%;
+        text-align: center;
+        padding: 0.5rem;
     }
-    .navegacion {
-        width: 100%;
-    }  
-    .navA ul {
-        display: flex;
-        justify-content: space-evenly;
-        font-family: 'Dongle', sans-serif;
-        line-height: 20px;
-        font-size: 24px;
-    }*/
-    {}
-   
 
-/*nuestro equipo*/
-.pagB {
-    margin: 0 10px 0 10px;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto auto auto;
-    grid-template-areas: "encabezadoA" "navA" "equipoB" "pieA";
-    min-height: calc(100% - 4rem);
-}
-.equipoB {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto;
-    grid-template-areas: "titulo" "contenidoEquipo";
-    row-gap: 10px;
-}
-.titulo {
-    width: auto;
-    left: 0;
-    margin: 0 10px 0 10px;
-    text-align: center;
-    padding: 10px;
-    font-size: 35px;
-    line-height: 30px;
-}
-.contenidoEquipo {
-    display: grid;
-    grid-template-columns: 30% 70%;
-    grid-template-rows: 50% 50%;
-    grid-template-areas: "dubii dubi" "alexi alex";
-}
-.dubi, .alex, .alexi, .dubi {
-    position: absolute;
-}
-.dubi, .alex {
-    display: flex;
-    width: 180px;
-    flex-direction: column;
-    font-size: 13px;
-}
-.dubi {
-    top: 315px;
-    left: 370px;
-}
-.alex {
-    top: 0px;
-    left: 250px;
-}
-.dubii img, .alexi img {
-    top: 10px;
-    border: 5px solid rgb(194, 178, 210);
-    border-radius: 6px;
-    width: 150px;
-    height: 180px;
-}
-.alexi {
-    top: 600px;
-    left: 120px
-}
-.dubii {
-    left: 110px;
-}
-/*contacto*/
-.contenidoC {
-    grid-area: contenidoC;
-}
-.contenidoCA {
-    grid-area: contenidoCA;
-}
-.pagC {
-    grid-template-columns: auto;
-    grid-template-rows: auto auto auto auto;
-    grid-template-areas: "encabezadoA" "navA" "contenidoC" "pieA";
-    margin: 10px;
-}
-.contenidoC {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto;
-    grid-template-areas: "titulo" "contenidoCA";
-}
-.contenidoCA {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto;
-    grid-template-areas: "numeroC" "formularioC";
-}
-.formularioC .comentario {
-    margin-bottom: 10px;
-}
-/*empresa*/
-.pagD {
-    grid-template-columns: auto;
-    grid-template-rows: auto auto auto auto;
-    margin: 10px;
-    grid-template-areas: "encabezadoA" "navA" "contenidoD" "pieA";
+    .contenidoEquipo {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        grid-template-rows: 50% 50%;
+        grid-template-areas: "dubii dubi""alexi alejo";
+        row-gap: 1rem;
+    }
 
-}
-.contenidoD {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto;
-    grid-template-areas: "titulo" "contenidoDA";
-}
-.empresaD {
-    text-align: center;
-}
-/*envios*/
-.contenidoE {
-    grid-area: contenidoE;
-}
-.contenidoEA {
-    grid-area: contenidoEA;
-}
-.intro {
-    grid-area: intro;
-}
-.medios {
-    grid-area: medios;
-}
-.pagE {
-    grid-template-columns: auto;
-    grid-template-rows: auto auto auto auto;
-    grid-template-areas: "encabezadoA" "navA" "contenidoE" "pieA";
+    .dubi,
+    .alejo {
+        width: auto;
+        font-size: 13px;
+        height: 7rem;
+    }
 
-}
-.contenidoE {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto;
-    grid-template-areas: "titulo" "contenidoEA";
-}
-.contenidoEA {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: "intro" "medios";
-    row-gap: 10px;
-}
-.intro, .medios {
-    font-family: 'Dongle', sans-serif;
-}
-.intro {
-    display: inline-flex;
-    width: 600px;
-    height: 50px;
-    padding: 10px;
-    position: absolute;
-    top: 250px;
-    left: 350px;
-    color: white;
-    background-color: rgb(194, 178, 210);
-    font-size: 30px;
-    line-height: 15px;
-    border-radius: 6px;
-}
-.medios {
-    position: absolute;
-    top: 350px;
-    line-height: 30px;
-    left: 550px;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    font-size: 30px;
+    .dubii,
+    .alexi {
+        justify-self: center;
+        align-self: center;
+    }
 
-}
+    .dubii img,
+    .alexi img {
+        border: 5px solid rgb(194, 178, 210);
+        border-radius: 6px;
+        width: 10rem;
+        height: 12rem;
+    }
+
+    /*contactenos*/
+
+    .pagC {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas: "encabezadoA""navA""contenidoC""pieA";
+        margin: 0px 10px 0px 10px;
+    }
+
+    .contenidoC {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        grid-template-areas: "titulo""contenidoCA";
+        row-gap: 1rem;
+    }
+
+    .contenidoCA {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+        grid-template-areas: "numeroC formularioC";
+        grid-column-gap: 1rem;
+    }
+
+    /*empresa*/
+    .pagD {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+        margin: 10px;
+        grid-template-areas: "encabezadoA""navA""contenidoD""pieA";
+
+    }
+
+    .contenidoD {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: 20rem;
+        grid-template-areas: "empresaD""misionD";
+        column-gap: 1rem;
+    }
+
+    /*envios*/
+    .pagE {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas: "encabezadoA""navA""contenidoE""pieA";
+        margin: 0px 10px 0px 10px;
+
+    }
+
+    .contenidoE {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        grid-template-areas: "titulo""contenidoEA";
+        row-gap: 1rem;
+    }
+
+    .contenidoEA {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        grid-template-areas: "intro""medios";
+        row-gap: 10px;
+    }
+    .intro {
+        justify-self: center;
+    }
 }
