@@ -1,0 +1,822 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*media*/
+.pagA,
+.pagB,
+.pagC,
+.pagD,
+.pagE {
+  display: -ms-grid;
+  display: grid;
+}
+
+.encabezadoA {
+  grid-area: encabezadoA;
+}
+
+.navA {
+  grid-area: navA;
+}
+
+.seccionAA {
+  grid-area: seccionAA;
+}
+
+.seccionBA {
+  grid-area: seccionBA;
+}
+
+.pieA {
+  grid-area: pieA;
+}
+
+/*navegacion items*/
+.navAA {
+  grid-area: navAA;
+}
+
+.navAB {
+  grid-area: navAB;
+}
+
+.navAC {
+  grid-area: navAC;
+}
+
+.navAD {
+  grid-area: navAD;
+}
+
+.navAE {
+  grid-area: navAE;
+}
+
+.navAF {
+  grid-area: navAF;
+}
+
+/*equipo*/
+.equipoB {
+  grid-area: equipoB;
+}
+
+.contenidoEquipo {
+  grid-area: contenidoEquipo;
+}
+
+.dubi {
+  grid-area: dubi;
+}
+
+.dubii {
+  grid-area: dubii;
+}
+
+.alejo {
+  grid-area: alejo;
+}
+
+.alexi {
+  grid-area: alexi;
+}
+
+.titulo {
+  grid-area: titulo;
+}
+
+/*contactenos*/
+.contenidoC {
+  grid-area: contenidoC;
+}
+
+.contenidoCA {
+  grid-area: contenidoCA;
+}
+
+.numeroC {
+  grid-area: numeroC;
+}
+
+.formularioC {
+  grid-area: formularioC;
+}
+
+/*envios*/
+.contenidoE {
+  grid-area: contenidoE;
+}
+
+.contenidoEA {
+  grid-area: contenidoEA;
+}
+
+.intro {
+  grid-area: intro;
+}
+
+.medios {
+  grid-area: medios;
+}
+
+body {
+  background-image: url(https://www.wallpaperkiss.com/wimg/b/167-1675770_big.jpg);
+  /*nuestro equipo*/
+  /*contactenos*/
+  /*empresa*/
+  /*envios*/
+}
+
+body li {
+  list-style: none;
+}
+
+body .marco {
+  background-color: black;
+  padding: 5px 0px 5px 0px;
+}
+
+body .navbar {
+  font-family: 'Dongle', sans-serif;
+  font-size: 1.5rem;
+  background-color: #c2b2d2 !important;
+  padding: 2px 0px 2px 0px;
+  border-bottom: 2px solid #c2b2d2;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  margin: 0px;
+}
+
+body .navbar .nav-link {
+  color: white !important;
+}
+
+body .navbar .navbar-brand img {
+  width: 3rem;
+}
+
+body .navbar .btn {
+  color: white;
+  border: 1px solid white;
+}
+
+body .navbar .btn:hover {
+  background-image: radial-gradient(white, #c2b2d2, white, #c2b2d2, #c2b2d2);
+  color: #4b4141;
+  border: none;
+}
+
+body .selPren {
+  font-family: 'Dongle', sans-serif;
+  font-size: 25px;
+  border-radius: 6px;
+  height: auto;
+  width: 50%;
+  padding-top: 0.5rem;
+  line-height: 2rem;
+}
+
+body .selPren ul .lili:hover {
+  padding: 0rem 0.3rem 0rem 0.3rem;
+  background-color: white;
+  border-style: solid;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-color: white purple purple white;
+  border-radius: 6px;
+  color: white;
+  line-height: 1.7rem;
+}
+
+body .selPren ul li img {
+  width: 1.5rem;
+}
+
+body .selPren ul li a {
+  font-size: 2rem;
+  color: #c6aed2;
+}
+
+body a {
+  text-decoration: none;
+}
+
+body .estiloPie {
+  padding: 1rem;
+  background-color: #c2b2d2;
+  border-radius: 6px;
+}
+
+body .estiloPie .RedesPie li {
+  margin: 0.5rem;
+}
+
+body .estiloPie .derechos {
+  font-family: 'Dongle', sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+body h3 {
+  font-family: 'Dongle', sans-serif;
+  font-size: 30px;
+  line-height: 0px;
+  color: white;
+}
+
+body .titulo {
+  font-family: 'Dongle', sans-serif;
+  background-color: #c2b2d2;
+  border-radius: 6px;
+  line-height: 1rem;
+  font-size: 2rem;
+  color: white;
+  margin-top: 0.5rem;
+}
+
+body .dubi,
+body .alejo {
+  background-color: #c2b2d2;
+  padding: 5px 10px 5px 10px;
+  border-radius: 6px;
+  color: white;
+}
+
+body .contenidoC .contenidoCA .numeroC .numeroCont {
+  font-family: 'Dongle', sans-serif;
+  font-size: 2rem;
+  color: white;
+  line-height: 2rem;
+  background-color: #c2b2d2;
+  border-radius: 6px;
+  text-align: center;
+}
+
+body .contenidoC .contenidoCA .numeroC .numeroConti ul {
+  padding: 1rem;
+}
+
+body .contenidoC .contenidoCA .numeroC .numeroConti ul li {
+  font-family: 'Dongle', sans-serif;
+  font-size: 2rem;
+  line-height: 2rem;
+  color: white;
+  text-align: center;
+  background-color: #c2b2d2;
+  border-radius: 6px;
+  margin: 1rem;
+}
+
+body .contenidoC .contenidoCA .numeroC .numeroConti ul li a {
+  color: white;
+}
+
+body .contenidoC .contenidoCA .formularioC .escribe .comentario {
+  font-family: 'Dongle', sans-serif;
+  font-size: 2rem;
+  line-height: 2rem;
+  background-color: #c2b2d2;
+  border-radius: 6px;
+  color: white;
+  text-align: center;
+}
+
+body .contenidoC .contenidoCA .formularioC .escribe .comentarioi {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+body .contenidoC .contenidoCA .formularioC .escribe .comentarioi .formuName, body .contenidoC .contenidoCA .formularioC .escribe .comentarioi .formuMail, body .contenidoC .contenidoCA .formularioC .escribe .comentarioi .formuCont {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 70%;
+  margin-top: 0.5rem;
+  border-radius: 6px;
+  text-align: center;
+  background-color: #f1e8f0;
+}
+
+body .contenidoD {
+  font-family: 'Dongle', sans-serif;
+  font-size: 30px;
+  color: white;
+  line-height: 20px;
+}
+
+body .contenidoD .empresaDB {
+  margin-top: 1rem;
+  background-color: #c2b2d2;
+  border-radius: 6px;
+  padding: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .misionDB {
+  margin-top: 1rem;
+  background-color: #c2b2d2;
+  border-radius: 6px;
+  padding: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .contenidoE .contenidoEA .intro,
+body .contenidoE .contenidoEA .medios {
+  font-family: 'Dongle', sans-serif;
+  background-color: #c2b2d2;
+  color: white;
+  font-size: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  border-radius: 6px;
+  border: 0.3rem solid #553855;
+}
+
+body .contenidoE .contenidoEA .medios {
+  padding: 1rem;
+}
+
+body .contenidoE .contenidoEA .medios a {
+  color: white;
+}
+
+body .contenidoE .contenidoEA .medios a:hover {
+  background-color: violet;
+  border-radius: 6px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .logoHeader {
+    width: 30%;
+  }
+  .pagA {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: auto auto auto auto auto;
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-areas: "encabezadoA" "navA" "seccionAA" "seccionBA" "pieA";
+    min-height: calc(100% - 4rem);
+    margin: 0px 10px 0px 10px;
+  }
+  .pagA .encabezadoA {
+    width: auto;
+    height: 100%;
+  }
+  .pagA .seccionAA {
+    margin-top: 1rem;
+  }
+  .pagA .seccionAA ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    line-height: 1rem;
+  }
+  .pagA .seccionAA .selPren {
+    width: auto;
+    background-color: white;
+    padding: 0.4rem 0.2rem 1rem 0.2rem;
+    height: 2rem;
+  }
+  .pagA .seccionAA .selPren ul {
+    margin: 0px;
+    padding: 0px;
+  }
+  .pagA .seccionAA .selPren ul .lilo {
+    display: none;
+  }
+  .container-fluid {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .container-fluid .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container-fluid .row .col-2 {
+    width: auto;
+  }
+  .container-fluid .row .col-2 .card {
+    width: 15rem !important;
+  }
+  .pieA {
+    width: auto;
+    height: 4rem;
+  }
+  .pieA div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 1rem;
+  }
+  .pieA div h3 {
+    font-size: 3rem;
+  }
+  .pieA div .derechos {
+    font-size: 2rem;
+    text-align: center;
+    line-height: 1rem;
+  }
+  .pieA div .RedesPie {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 0px;
+  }
+  /*nuestro equipo*/
+  .pagB {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: auto auto auto auto;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas: "encabezadoA" "navA" "equipoB" "pieA";
+    margin: 0px 10px 0px 10px;
+    min-height: calc(100% - 4rem);
+  }
+  .pagB .equipoB {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: auto auto;
+        grid-template-rows: auto auto;
+        grid-template-areas: "titulo" "contenidoEquipo";
+    row-gap: 1rem;
+  }
+  .pagB .equipoB .contenidoEquipo {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    -ms-grid-rows: auto auto;
+        grid-template-rows: auto auto;
+        grid-template-areas: "dubii dubi" "alexi alejo";
+    row-gap: 1rem;
+  }
+  .pagB .equipoB .contenidoEquipo .dubi,
+  .pagB .equipoB .contenidoEquipo .alejo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 13px;
+  }
+  .pagB .equipoB .contenidoEquipo .dubii img,
+  .pagB .equipoB .contenidoEquipo .alexi img {
+    border: 5px solid #c2b2d2;
+    border-radius: 6px;
+    width: 5rem;
+    height: 7rem;
+  }
+  .pagB .pieA {
+    height: 4rem;
+    margin-top: 5rem;
+  }
+  .titulo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 2rem;
+    line-height: 2rem;
+    padding: 1rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  /*contactenos*/
+  .pagC {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: auto auto auto auto;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas: "encabezadoA" "navA" "contenidoC" "pieA";
+    margin: 0px 10px 0px 10px;
+  }
+  .pagC .contenidoC {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    -ms-grid-rows: auto auto;
+        grid-template-rows: auto auto;
+        grid-template-areas: "titulo" "contenidoCA";
+    row-gap: 1rem;
+  }
+  .pagC .contenidoC .contenidoCA {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    -ms-grid-rows: auto auto;
+        grid-template-rows: auto auto;
+        grid-template-areas: "numeroC" "formularioC";
+  }
+  /*empresa*/
+  .pagD {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: auto auto auto auto;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas: "encabezadoA" "navA" "contenidoD" "pieA";
+    margin: 0px 10px 0px 10px;
+  }
+  .pagD .contenidoD {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    -ms-grid-rows: auto auto;
+        grid-template-rows: auto auto;
+        grid-template-areas: "empresaD" "misionD";
+    row-gap: 3rem;
+  }
+  .pagD .pieA {
+    height: 4rem;
+    margin-top: 3rem;
+  }
+  /*envios*/
+  .pagE {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: auto auto auto auto;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas: "encabezadoA" "navA" "contenidoE" "pieA";
+    margin: 0px 10px 0px 10px;
+  }
+  .pagE .contenidoE {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    -ms-grid-rows: auto auto;
+        grid-template-rows: auto auto;
+        grid-template-areas: "titulo" "contenidoEA";
+  }
+  .pagE .contenidoE .contenidoEA {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    -ms-grid-rows: auto auto;
+        grid-template-rows: auto auto;
+        grid-template-areas: "intro" "medios";
+    row-gap: 1rem;
+    margin: 1rem;
+  }
+  .intro,
+  .medios {
+    line-height: 2rem;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .pagA {
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    -ms-grid-rows: auto auto auto auto auto;
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-areas: "encabezadoA" "navA" "seccionAA" "seccionBA" "pieA";
+    margin: 0px 10px 0px 10px;
+    min-height: calc(100% - 4rem);
+  }
+  .pagA .seccionAA {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 1rem;
+  }
+  .pagA .seccionAA ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    justify-items: center;
+  }
+  .pagA .row {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .pagA .row .card-body {
+    background-color: #c2b2d2;
+    color: white;
+  }
+  .pieA {
+    width: 100%;
+    height: 4rem;
+  }
+  .pieA .alineacionCentral {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 1rem;
+  }
+  .pieA .alineacionCentral .RedesPie {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 0;
+    padding: 0;
+  }
+  /*nuestro equipo*/
+  .pagB {
+    margin: 0 10px 0 10px;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    -ms-grid-rows: auto auto auto auto;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas: "encabezadoA" "navA" "equipoB" "pieA";
+    min-height: calc(100% - 4rem);
+  }
+  .pagB .equipoB {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    -ms-grid-rows: auto auto;
+        grid-template-rows: auto auto;
+        grid-template-areas: "titulo" "contenidoEquipo";
+    row-gap: 1rem;
+  }
+  .pagB .equipoB .contenidoEquipo {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 30% 70%;
+        grid-template-columns: 30% 70%;
+    -ms-grid-rows: 50% 50%;
+        grid-template-rows: 50% 50%;
+        grid-template-areas: "dubii dubi" "alexi alejo";
+    row-gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  .pagB .equipoB .contenidoEquipo .dubi,
+  .pagB .equipoB .contenidoEquipo .alejo {
+    width: auto;
+    font-size: 13px;
+    height: 7rem;
+  }
+  .pagB .equipoB .contenidoEquipo .dubii,
+  .pagB .equipoB .contenidoEquipo .alexi {
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .pagB .equipoB .contenidoEquipo .dubii img,
+  .pagB .equipoB .contenidoEquipo .alexi img {
+    border: 5px solid #c2b2d2;
+    border-radius: 6px;
+    width: 10rem;
+    height: 12rem;
+  }
+  .titulo {
+    width: auto;
+    text-align: center;
+    padding: 0.5rem;
+  }
+  /*contactenos*/
+  .pagC {
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    -ms-grid-rows: auto auto auto auto;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas: "encabezadoA" "navA" "contenidoC" "pieA";
+    margin: 0px 10px 0px 10px;
+  }
+  .pagC .contenidoC {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    -ms-grid-rows: auto auto;
+        grid-template-rows: auto auto;
+        grid-template-areas: "titulo" "contenidoCA";
+    row-gap: 1rem;
+  }
+  .pagC .contenidoC .contenidoCA {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+        grid-template-areas: "numeroC formularioC";
+    grid-column-gap: 1rem;
+  }
+  /*empresa*/
+  .pagD {
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    -ms-grid-rows: auto auto auto auto;
+        grid-template-rows: auto auto auto auto;
+    margin: 0px 10px 0px 10px;
+        grid-template-areas: "encabezadoA" "navA" "contenidoD" "pieA";
+  }
+  .pagD .contenidoD {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    -ms-grid-rows: 20rem;
+        grid-template-rows: 20rem;
+        grid-template-areas: "empresaD" "misionD";
+    -webkit-column-gap: 1rem;
+            column-gap: 1rem;
+  }
+  /*envios*/
+  .pagE {
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    -ms-grid-rows: auto auto auto auto;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas: "encabezadoA" "navA" "contenidoE" "pieA";
+    margin: 0px 10px 0px 10px;
+  }
+  .pagE .contenidoE {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    -ms-grid-rows: auto auto;
+        grid-template-rows: auto auto;
+        grid-template-areas: "titulo" "contenidoEA";
+    row-gap: 1rem;
+  }
+  .pagE .contenidoE .contenidoEA {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    -ms-grid-rows: auto auto;
+        grid-template-rows: auto auto;
+        grid-template-areas: "intro" "medios";
+    row-gap: 1rem;
+    justify-items: center;
+  }
+  .pagE .contenidoE .contenidoEA .intro {
+    width: 60%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
