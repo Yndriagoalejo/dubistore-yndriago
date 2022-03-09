@@ -4,7 +4,9 @@
     margin: 0;
     padding: 0;
 }
-$colores: (r: rgb(194,178,210), b: white, n: black);
+
+$colores: (r: rgb(194, 178, 210), b: white, n: black);
+
 @mixin texto ($color) {
     font-size: 2rem;
     color: $color;
@@ -143,7 +145,7 @@ body {
     .navbar {
         font-family: 'Dongle', sans-serif;
         font-size: 1.5rem;
-        background-color: map-get($colores, r ) !important;
+        background-color: map-get($colores, r) !important;
         padding: 2px 0px 2px 0px;
         border-bottom: 2px solid map-get($colores, r);
         border-bottom-left-radius: 6px;
@@ -151,7 +153,7 @@ body {
         margin: 0px;
 
         .nav-link {
-            color: map-get($colores, b ) !important;
+            color: map-get($colores, b) !important;
         }
 
         .navbar-brand {
@@ -200,7 +202,7 @@ body {
                 }
 
                 a {
-                    @include texto(rgb(198,174,210))
+                    @include texto(rgb(198, 174, 210))
                 }
             }
         }
@@ -208,6 +210,11 @@ body {
 
     a {
         text-decoration: none;
+        color: white;
+
+        &:hover {
+            color: white;
+        }
     }
 
     .estiloPie {
@@ -313,9 +320,11 @@ body {
                             text-align: center;
                             background-color: rgb(241, 232, 240);
                         }
+
                         .formuMail {
                             @extend.formuName;
                         }
+
                         .formuCont {
                             @extend.formuName;
                         }
@@ -388,6 +397,7 @@ body {
         width: 30%;
     }
 
+
     .pagA {
         grid-template-columns: 100%;
         grid-template-rows: auto auto auto auto auto;
@@ -442,6 +452,22 @@ body {
 
                 .card {
                     width: 15rem !important;
+                    border-radius: 6px;
+                    border-color: rgb(194, 178, 210);
+
+                    .card-body {
+                        background-color: rgb(194, 178, 210) !important;
+                        font-family: 'Dongle', sans-serif;
+                        @include texto(white);
+                        line-height: 0%;
+                        text-align: center;
+
+                        .card-text {
+                            font-family: 'Dongle', sans-serif;
+
+                            @include texto(white);
+                        }
+                    }
                 }
             }
         }
@@ -631,7 +657,14 @@ body {
 
             .card-body {
                 background-color: rgb(194, 178, 210);
-                color: white;
+                font-family: 'Dongle', sans-serif;
+                @include texto(white);
+                line-height: 0%;
+                text-align: center;
+                .card-text {
+                font-family: 'Dongle', sans-serif;
+                @include texto(white);
+                }
             }
         }
     }
